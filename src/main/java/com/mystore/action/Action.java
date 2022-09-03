@@ -35,6 +35,7 @@ public class Action extends BaseClass  {
 	public static void scrollByVisibilityOfElement(WebDriver driver, WebElement ele) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();", ele);
+///just for testing
 
 	}
 
